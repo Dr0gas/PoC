@@ -1,8 +1,8 @@
 {
-  "url": "https://m0x0101.github.io/lol/credentials_form.yaml",
+  "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-xss-creds-form.yaml",
   "urls": [
     {
-      "url": "https://m0x0101.github.io/lol/credentials_form.yaml",
+      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-xss-creds-form.yaml",
       "name": "Foo"
     }
   ]
