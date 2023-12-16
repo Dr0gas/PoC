@@ -1,0 +1,9 @@
+{
+  "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-ui-dom-xss-detect.yaml",
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-ui-dom-xss-detect.yaml",
+      "name": "Foo"
+    }
+  ]
+}
