@@ -1,12 +1,12 @@
 {
-  "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-ui-dom-xss-detect.yaml",
+  "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/detect.yaml",
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-ui-dom-xss-detect.yaml",
+      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/detect1.yaml",
       "name": "Foo"
     },
     {
-      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-xss-test2.yaml",
+      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/detect2.yaml",
       "name": "Foo"
     }
   ]
