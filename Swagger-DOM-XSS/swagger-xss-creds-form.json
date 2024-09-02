@@ -1,9 +1,0 @@
-{
-  "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-xss-creds-form.yaml",
-  "urls": [
-    {
-      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/swagger-xss-creds-form.yaml",
-      "name": "Foo"
-    }
-  ]
-}

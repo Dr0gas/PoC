@@ -1,0 +1,9 @@
+{
+  "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/poc_creds_form.yaml",
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/poc_creds_form.yaml",
+      "name": "Foo"
+    }
+  ]
+}
