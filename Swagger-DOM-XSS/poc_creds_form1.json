@@ -1,9 +1,9 @@
 {
-  "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/poc_creds_form1.yaml",
+  "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/auth1.yaml",
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/poc_creds_form1.yaml",
-      "name": "Foo"
+      "url": "https://raw.githubusercontent.com/Dr0gas/PoC/main/Swagger-DOM-XSS/auth1.yaml",
+      "name": "Dr0gas"
     }
   ]
 }
