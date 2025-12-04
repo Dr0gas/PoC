@@ -2,11 +2,11 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: http://dr0gas.com
+    authorizationUrl: http://auth.dr0gas.com
 info:
   version: "0.0.1"
-  title: dr0gas POC arbitrary text
-  description: Please Authorize!<video src=//dr0gas.com>
+  title: External Authentication Prompt via HTML Injection (PoC Dr0gas)
+  description: Please Authorize!<video src=//auth.dr0gas.com> | PoC Dr0gas
 paths:
   /:
     get:
