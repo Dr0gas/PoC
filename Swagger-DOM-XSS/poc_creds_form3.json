@@ -1,0 +1,9 @@
+{
+    "url": "https://poc.dr0gas.com/Swagger-DOM-XSS/auth3.yaml",
+    "urls": [
+        {
+            "url": "https://poc.dr0gas.com/Swagger-DOM-XSS/auth3.yaml",
+            "name": "Test"
+        }
+    ]
+}
