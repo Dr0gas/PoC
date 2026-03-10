@@ -4,7 +4,7 @@ info:
   title: HTML Injection
   description: '<div>
     <div class="heading">
-        <h1>HTML Injection :</h1> (PoC d0ug)
+        <h1>HTML Injection:</h1> (PoC d0ug)
     </div>
     <div class="image">
         <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*e_0eHJ87WTEgaXBm9qYlFA.jpeg">
