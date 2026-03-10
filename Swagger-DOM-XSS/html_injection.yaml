@@ -13,4 +13,4 @@ paths:
     post:
       responses:
         "200":
-          description: HTML Injection by: d0ug
+          description: HTML Injection by d0ug
