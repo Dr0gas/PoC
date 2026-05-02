@@ -12,8 +12,6 @@ info:
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" size="20">
-                <textarea autofocus onfocus=alert(1)>
-                <audio src=x onerror=alert(1)>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
